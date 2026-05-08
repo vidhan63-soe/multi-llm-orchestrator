@@ -95,7 +95,7 @@ Savings: Rs. 8.19B (99.93% reduction)
 ### Installation
 
 Clone repository:
-git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/vidhan63-soe/multi-llm-orchestrator)
+git clone https://github.com/vidhan63-soe/multi-llm-orchestrator
 cd orchestrator-agent
 
 Install dependencies:
