@@ -2,7 +2,7 @@
 
 Intelligent task router achieving 99.93% cost reduction through smart model selection
 
-A production-grade orchestration system that routes 96M+ annual AI tasks across 8 models from 4 providers (Groq, Anthropic, Google, OpenAI) with automatic fallback and SLA enforcement.
+A orchestration system that routes 96M+ annual AI tasks across 8 models from 4 providers (Groq, Anthropic, Google, OpenAI) with automatic fallback and SLA enforcement.
 
 ---
 
@@ -12,7 +12,7 @@ Assignment 01: The Orchestrator from GrabOn AI Labs' Agentic AI Engineer Challen
 
 The Challenge: Build the orchestration layer that routes GrabOn's AI workloads (deal extraction, insurance classification, credit narratives) across multiple LLM providers with cost/latency/quality SLAs, proving optimal routing with data.
 
-Why This Assignment: Demonstrates production-level cost engineering, multi-model fluency, and failure recovery at GrabOn's 96M task/year scale.
+Why This Assignment: Demonstrates cost engineering, multi-model fluency, and failure recovery at GrabOn's 96M task/year scale.
 
 ---
 
