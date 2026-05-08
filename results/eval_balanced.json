@@ -1,0 +1,430 @@
+{
+  "evaluation": {
+    "policy": "balanced",
+    "summary": {
+      "total_tests": 30,
+      "passed": 23,
+      "failed": 7,
+      "success_rate": 1.0,
+      "sla_compliance_rate": 0.7666666666666667,
+      "avg_score": 0.31,
+      "avg_cost_rupees": 23.475996666666667,
+      "avg_latency_ms": 219.76666666666668,
+      "fallback_rate": 0.1,
+      "by_task_type": {
+        "deal_extraction": {
+          "count": 8,
+          "avg_score": 0.4,
+          "avg_cost": 0.0,
+          "avg_latency": 205.125,
+          "sla_compliance": 1.0
+        },
+        "insurance_intent": {
+          "count": 6,
+          "avg_score": 0.3,
+          "avg_cost": 0.0,
+          "avg_latency": 170.0,
+          "sla_compliance": 1.0
+        },
+        "credit_narrative": {
+          "count": 6,
+          "avg_score": 0.15,
+          "avg_cost": 108.149,
+          "avg_latency": 297.5,
+          "sla_compliance": 0.3333333333333333
+        },
+        "deal_copy_generation": {
+          "count": 4,
+          "avg_score": 0.7,
+          "avg_cost": 0.0,
+          "avg_latency": 213.75,
+          "sla_compliance": 1.0
+        },
+        "attribution_analysis": {
+          "count": 3,
+          "avg_score": 0.0,
+          "avg_cost": 0.0,
+          "avg_latency": 200.33333333333334,
+          "sla_compliance": 1.0
+        },
+        "hindi_localization": {
+          "count": 3,
+          "avg_score": 0.20000000000000004,
+          "avg_cost": 18.461966666666665,
+          "avg_latency": 230.33333333333334,
+          "sla_compliance": 0.0
+        }
+      }
+    },
+    "results": [
+      {
+        "task_id": "e73c2a07",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 241,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "cce11b86",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 270,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "77c63b89",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 243,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "c8ce9126",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 195,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "57adffef",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 133,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "d68e4e56",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 113,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "97636ed5",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 167,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "7e871045",
+        "task_type": "deal_extraction",
+        "model": "llama-8b",
+        "score": 0.4,
+        "latency_ms": 279,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "05925c8b",
+        "task_type": "insurance_intent",
+        "model": "llama-8b",
+        "score": 0.3,
+        "latency_ms": 212,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "5c850bff",
+        "task_type": "insurance_intent",
+        "model": "llama-8b",
+        "score": 0.3,
+        "latency_ms": 169,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "a37b8df8",
+        "task_type": "insurance_intent",
+        "model": "llama-8b",
+        "score": 0.3,
+        "latency_ms": 142,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "687164ce",
+        "task_type": "insurance_intent",
+        "model": "llama-8b",
+        "score": 0.3,
+        "latency_ms": 234,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "b55dedef",
+        "task_type": "insurance_intent",
+        "model": "llama-8b",
+        "score": 0.3,
+        "latency_ms": 126,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "029609c7",
+        "task_type": "insurance_intent",
+        "model": "llama-8b",
+        "score": 0.3,
+        "latency_ms": 137,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "4f09284c",
+        "task_type": "credit_narrative",
+        "model": "claude-sonnet-4",
+        "score": 0.15,
+        "latency_ms": 280,
+        "cost_rupees": 211.899,
+        "sla_met": false,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "286d3b5b",
+        "task_type": "credit_narrative",
+        "model": "claude-sonnet-4",
+        "score": 0.15,
+        "latency_ms": 277,
+        "cost_rupees": 204.18,
+        "sla_met": false,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "f770fd7b",
+        "task_type": "credit_narrative",
+        "model": "llama-70b",
+        "score": 0.15,
+        "latency_ms": 411,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": true,
+        "success": true
+      },
+      {
+        "task_id": "89713495",
+        "task_type": "credit_narrative",
+        "model": "claude-sonnet-4",
+        "score": 0.15,
+        "latency_ms": 266,
+        "cost_rupees": 70.965,
+        "sla_met": false,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "96157913",
+        "task_type": "credit_narrative",
+        "model": "claude-sonnet-4",
+        "score": 0.15,
+        "latency_ms": 266,
+        "cost_rupees": 161.85,
+        "sla_met": false,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "780d8745",
+        "task_type": "credit_narrative",
+        "model": "llama-70b",
+        "score": 0.15,
+        "latency_ms": 285,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": true,
+        "success": true
+      },
+      {
+        "task_id": "5bdef8b3",
+        "task_type": "deal_copy_generation",
+        "model": "llama-70b",
+        "score": 0.7,
+        "latency_ms": 123,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "3cf1d1c6",
+        "task_type": "deal_copy_generation",
+        "model": "llama-70b",
+        "score": 0.7,
+        "latency_ms": 219,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "5533f865",
+        "task_type": "deal_copy_generation",
+        "model": "llama-70b",
+        "score": 0.7,
+        "latency_ms": 222,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "8b8ac05e",
+        "task_type": "deal_copy_generation",
+        "model": "llama-70b",
+        "score": 0.7,
+        "latency_ms": 291,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "d8359711",
+        "task_type": "attribution_analysis",
+        "model": "llama-70b",
+        "score": 0.0,
+        "latency_ms": 113,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "ac8ac476",
+        "task_type": "attribution_analysis",
+        "model": "llama-70b",
+        "score": 0.0,
+        "latency_ms": 203,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "b664bd8f",
+        "task_type": "attribution_analysis",
+        "model": "llama-70b",
+        "score": 0.0,
+        "latency_ms": 285,
+        "cost_rupees": 0.0,
+        "sla_met": true,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "d9f5befa",
+        "task_type": "hindi_localization",
+        "model": "gemini-flash",
+        "score": 0.2,
+        "latency_ms": 142,
+        "cost_rupees": 1.73055,
+        "sla_met": false,
+        "fallback_used": false,
+        "success": true
+      },
+      {
+        "task_id": "b21a8f6c",
+        "task_type": "hindi_localization",
+        "model": "gemini-pro",
+        "score": 0.2,
+        "latency_ms": 348,
+        "cost_rupees": 52.18625,
+        "sla_met": false,
+        "fallback_used": true,
+        "success": true
+      },
+      {
+        "task_id": "679a7bbb",
+        "task_type": "hindi_localization",
+        "model": "gemini-flash",
+        "score": 0.2,
+        "latency_ms": 201,
+        "cost_rupees": 1.4690999999999999,
+        "sla_met": false,
+        "fallback_used": false,
+        "success": true
+      }
+    ]
+  },
+  "scale_projection": {
+    "policy": "balanced",
+    "total_annual_cost_rupees": 1073677376.0,
+    "total_annual_cost_usd": 12935872.0,
+    "by_task_type": {
+      "deal_extraction": {
+        "annual_tasks": 57600000,
+        "cost_per_task": 0.0,
+        "annual_cost_rupees": 0.0
+      },
+      "insurance_intent": {
+        "annual_tasks": 19200000,
+        "cost_per_task": 0.0,
+        "annual_cost_rupees": 0.0
+      },
+      "credit_narrative": {
+        "annual_tasks": 9600000,
+        "cost_per_task": 108.149,
+        "annual_cost_rupees": 1038230400.0
+      },
+      "deal_copy_generation": {
+        "annual_tasks": 4800000,
+        "cost_per_task": 0.0,
+        "annual_cost_rupees": 0.0
+      },
+      "attribution_analysis": {
+        "annual_tasks": 2880000,
+        "cost_per_task": 0.0,
+        "annual_cost_rupees": 0.0
+      },
+      "hindi_localization": {
+        "annual_tasks": 1920000,
+        "cost_per_task": 18.461966666666665,
+        "annual_cost_rupees": 35446976.0
+      }
+    },
+    "monthly_cost_rupees": 89473114.66666667
+  }
+}
